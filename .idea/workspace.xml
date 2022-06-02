@@ -1,28 +1,702 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19c24980-70f5-488b-bbe4-e19dbad0404d" name="Changes" comment="" />
+    <list default="true" id="19c24980-70f5-488b-bbe4-e19dbad0404d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/.github/workflows/pythonpackage.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/.github/workflows/release.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/.pre-commit-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/MANIFEST.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/__version__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/lib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/lib/enums.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/lib/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/spot/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/spot/blvt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/spot/bswap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/spot/c2c.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/spot/convert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/spot/data_stream.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/spot/fiat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/spot/futures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/spot/gift_card.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/spot/loan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/spot/margin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/spot/market.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/spot/mining.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/spot/nft.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/spot/pay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/spot/portfolio_margin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/spot/rebate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/spot/savings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/spot/staking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/spot/sub_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/spot/trade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/spot/wallet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/websocket/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/websocket/binance_client_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/websocket/binance_client_protocol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/websocket/binance_socket_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/websocket/spot/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/websocket/spot/websocket_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/binance/websocket/websocket_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/make.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/CHANGELOG.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/binance.spot.blvt.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/binance.spot.bswap.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/binance.spot.c2c.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/binance.spot.convert.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/binance.spot.data_stream.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/binance.spot.fiat.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/binance.spot.futures.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/binance.spot.gift_card.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/binance.spot.loan.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/binance.spot.margin.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/binance.spot.market.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/binance.spot.mining.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/binance.spot.nft.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/binance.spot.pay.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/binance.spot.portfolio_margin.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/binance.spot.rebate.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/binance.spot.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/binance.spot.savings.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/binance.spot.staking.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/binance.spot.sub_account.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/binance.spot.trade.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/binance.spot.wallet.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/binance.websocket.spot.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/getting_started.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/docs/source/intro.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/blvt/blvt_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/blvt/redeem_blvt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/blvt/redemption_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/blvt/subscribe_blvt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/blvt/subscription_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/blvt/user_limit_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/bswap/bswap_add_liquidity_preview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/bswap/bswap_claim_rewards.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/bswap/bswap_claimed_rewards.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/bswap/bswap_liquidity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/bswap/bswap_liquidity_add.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/bswap/bswap_liquidity_operation_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/bswap/bswap_pool_configure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/bswap/bswap_pools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/bswap/bswap_remove_liquidity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/bswap/bswap_remove_liquidity_preview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/bswap/bswap_request_quote.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/bswap/bswap_swap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/bswap/bswap_swap_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/bswap/bswap_unclaimed_rewards.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/c2c/c2c_trade_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/convert/convert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/fiat/fiat_order_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/fiat/fiat_payment_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/futures/futures_loan_adjust_collateral.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/futures/futures_loan_adjust_collateral_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/futures/futures_loan_borrow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/futures/futures_loan_borrow_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/futures/futures_loan_calc_adjust_level.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/futures/futures_loan_calc_max_adjust_amount.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/futures/futures_loan_collateral_repay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/futures/futures_loan_collateral_repay_limit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/futures/futures_loan_collateral_repay_quote.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/futures/futures_loan_collateral_repay_result.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/futures/futures_loan_configs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/futures/futures_loan_interest_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/futures/futures_loan_liquidation_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/futures/futures_loan_repay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/futures/futures_loan_repay_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/futures/futures_loan_wallet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/futures/futures_transfer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/futures/futures_transfer_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/gift_card/gift_card_create_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/gift_card/gift_card_redeem_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/gift_card/gift_card_rsa_public_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/gift_card/gift_card_verify_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/loan/loan_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/bnbBurn_status.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/cancel_isolated_margin_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/cancel_margin_oco_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/cancel_margin_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/enable_isolated_margin_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/get_margin_oco_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/get_margin_oco_orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/get_margin_open_oco_orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/isolated_margin_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/isolated_margin_account_limit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/isolated_margin_all_pairs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/isolated_margin_fee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/isolated_margin_pair.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/isolated_margin_tier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/isolated_margin_transfer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/isolated_margin_transfer_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/margin_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/margin_all_assets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/margin_all_orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/margin_all_pairs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/margin_asset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/margin_borrow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/margin_fee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/margin_force_liquidation_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/margin_interest_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/margin_interest_rate_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/margin_load_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/margin_max_borrowable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/margin_max_transferable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/margin_my_trades.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/margin_open_orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/margin_open_orders_cancellation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/margin_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/margin_order_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/margin_pair.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/margin_pair_index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/margin_repay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/margin_repay_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/margin_transfer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/margin_transfer_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/new_margin_oco_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/new_margin_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/margin/toggle_bnbBurn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/market/agg_trades.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/market/avg_price.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/market/book_ticker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/market/depth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/market/exchange_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/market/historical_trades.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/market/klines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/market/ping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/market/ticker_24hr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/market/ticker_price.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/market/time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/market/trades.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/mining/mining_account_earning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/mining/mining_account_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/mining/mining_algo_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/mining/mining_bonus_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/mining/mining_coin_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/mining/mining_earnings_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/mining/mining_hashrate_resale_cancellation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/mining/mining_hashrate_resale_details.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/mining/mining_hashrate_resale_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/mining/mining_hashrate_resale_request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/mining/mining_statistics_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/mining/mining_worker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/mining/mining_worker_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/nft/nft_asset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/nft/nft_deposit_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/nft/nft_transaction_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/nft/nft_withdraw_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/pay/pay_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/portfolio_margin/portfolio_margin_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/rebate/rebate_spot_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/savings/savings_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/savings/savings_change_position.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/savings/savings_flexible_product_position.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/savings/savings_flexible_products.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/savings/savings_flexible_redeem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/savings/savings_flexible_user_left_quota.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/savings/savings_flexible_user_redemption_quota.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/savings/savings_interest_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/savings/savings_project_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/savings/savings_project_position.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/savings/savings_purchase_flexible_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/savings/savings_purchase_project.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/savings/savings_purchase_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/savings/savings_redemption_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/staking/staking_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/staking/staking_product_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/staking/staking_product_position.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/staking/staking_product_quota.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/staking/staking_purchase_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/staking/staking_redeem_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/staking/staking_set_auto_staking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/stream/isolated_margin/close_isolated_margin_listen_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/stream/isolated_margin/new_isolated_margin_listen_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/stream/isolated_margin/renew_isolated_margin_listen_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/stream/margin/close_margin_listen_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/stream/margin/new_margin_listen_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/stream/margin/renew_margin_listen_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/stream/spot/close_listen_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/stream/spot/new_listen_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/stream/spot/renew_listen_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/managed_sub_account_assets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/managed_sub_account_deposit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/managed_sub_account_get_snapshot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/managed_sub_account_withdraw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_api_add_ip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_api_delete_ip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_api_get_ip_restriction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_api_toggle_ip_restriction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_assets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_create.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_deposit_address.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_deposit_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_enable_futures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_enable_leverage_token.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_enable_margin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_futures_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_futures_account_summary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_futures_asset_transfer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_futures_asset_transfer_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_futures_position_risk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_futures_transfer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_margin_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_margin_account_summary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_margin_transfer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_spot_summary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_spot_transfer_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_status.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_transfer_sub_account_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_transfer_to_master.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_transfer_to_sub.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_universal_transfer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/sub_account/sub_account_universal_transfer_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/trade/cancel_oco_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/trade/cancel_open_orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/trade/cancel_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/trade/get_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/trade/get_my_trades.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/trade/get_oco_open_orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/trade/get_oco_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/trade/get_oco_orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/trade/get_open_orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/trade/get_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/trade/get_order_rate_limit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/trade/get_orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/trade/new_oco_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/trade/new_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/trade/new_order_testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/wallet/account_snapshot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/wallet/account_status.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/wallet/api_key_permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/wallet/api_trading_status.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/wallet/asset_detail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/wallet/asset_dividend_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/wallet/bnb_convertible_assets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/wallet/coin_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/wallet/deposit_address.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/wallet/deposit_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/wallet/disable_fast_withdraw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/wallet/dust_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/wallet/enable_fast_withdraw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/wallet/funding_wallet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/wallet/system_status.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/wallet/trade_fee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/wallet/transfer_dust.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/wallet/user_universal_transfer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/wallet/user_universal_transfer_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/wallet/withdraw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/spot/wallet/withdraw_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/websocket/spot/agg_trade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/websocket/spot/all_book_ticker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/websocket/spot/all_symbols_mini_ticker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/websocket/spot/all_symbols_ticker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/websocket/spot/combined_streams.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/websocket/spot/diff_book_depth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/websocket/spot/partial_book_depth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/websocket/spot/symbol_book_ticker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/websocket/spot/symbol_kline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/websocket/spot/symbol_mini_ticker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/websocket/spot/symbol_ticker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/websocket/spot/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/websocket/spot/trade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/examples/websocket/spot/user_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/requirements/common.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/requirements/requirements-dev.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/requirements/requirements-test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/requirements/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/setup.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/lib/test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/blvt/test_blvt_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/blvt/test_redeem_blvt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/blvt/test_redemption_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/blvt/test_subscribe_blvt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/blvt/test_subscription_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/blvt/test_user_limit_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/bswap/test_bswap_add_liquidity_preview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/bswap/test_bswap_claim_rewards.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/bswap/test_bswap_claimed_rewards.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/bswap/test_bswap_liquidity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/bswap/test_bswap_liquidity_add.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/bswap/test_bswap_liquidity_operation_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/bswap/test_bswap_pool_configure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/bswap/test_bswap_pools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/bswap/test_bswap_remove_liquidity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/bswap/test_bswap_remove_liquidity_preview.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/bswap/test_bswap_request_quote.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/bswap/test_bswap_swap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/bswap/test_bswap_swap_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/bswap/test_bswap_unclaimed_rewards.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/c2c/test_c2c_trade_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/convert/test_convert_trade_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/data_stream/isolated_margin/test_close_isolated_margin_listen_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/data_stream/isolated_margin/test_new_isolated_margin_listen_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/data_stream/isolated_margin/test_renew_isolated_margin_listen_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/data_stream/margin/test_close_margin_listen_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/data_stream/margin/test_new_margin_listen_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/data_stream/margin/test_renew_margin_listen_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/data_stream/spot/test_close_listen_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/data_stream/spot/test_new_listen_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/data_stream/spot/test_renew_listen_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/fiat/test_fiat_order_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/fiat/test_fiat_payment_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/futures/test_futures_loan_adjust_collateral.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/futures/test_futures_loan_adjust_collateral_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/futures/test_futures_loan_borrow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/futures/test_futures_loan_borrow_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/futures/test_futures_loan_calc_adjust_level.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/futures/test_futures_loan_calc_max_adjust_amount.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/futures/test_futures_loan_collateral_repay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/futures/test_futures_loan_collateral_repay_limit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/futures/test_futures_loan_collateral_repay_quote.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/futures/test_futures_loan_collateral_repay_result.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/futures/test_futures_loan_configs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/futures/test_futures_loan_interest_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/futures/test_futures_loan_liquidation_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/futures/test_futures_loan_repay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/futures/test_futures_loan_repay_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/futures/test_futures_loan_wallet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/futures/test_futures_transfer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/futures/test_futures_transfer_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/gift_card/test_gift_card_create_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/gift_card/test_gift_card_redeem_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/gift_card/test_gift_card_rsa_public_key.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/gift_card/test_gift_card_verify_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/loan/test_loan_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_bnbBurn_status.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_cancel_isolated_margin_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_cancel_margin_oco_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_cancel_margin_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_enable_isolated_margin_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_get_margin_oco_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_get_margin_oco_orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_get_margin_open_oco_orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_isolated_margin_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_isolated_margin_account_limit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_isolated_margin_all_pairs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_isolated_margin_fee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_isolated_margin_pair.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_isolated_margin_tier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_isolated_margin_transfer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_isolated_margin_transfer_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_margin_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_margin_all_assets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_margin_all_orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_margin_all_pairs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_margin_asset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_margin_borrow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_margin_fee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_margin_force_liquidation_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_margin_interest_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_margin_interest_rate_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_margin_load_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_margin_max_borrowable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_margin_max_transferable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_margin_my_trades.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_margin_new_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_margin_open_orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_margin_open_orders_cancellation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_margin_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_margin_order_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_margin_pair.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_margin_pair_index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_margin_repay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_margin_repay_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_margin_transfer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_margin_transfer_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_new_margin_oco_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/margin/test_toggle_bnbBurn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/market/test_agg_trades.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/market/test_avg_price.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/market/test_book_ticker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/market/test_depth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/market/test_exchange_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/market/test_historical_trades.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/market/test_kline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/market/test_ping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/market/test_ticker_24hr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/market/test_ticker_price.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/market/test_time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/market/test_trades.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/mining/test_mining_account_earning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/mining/test_mining_account_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/mining/test_mining_algo_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/mining/test_mining_bonus_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/mining/test_mining_coin_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/mining/test_mining_earnings_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/mining/test_mining_hashrate_resale_cancellation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/mining/test_mining_hashrate_resale_details.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/mining/test_mining_hashrate_resale_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/mining/test_mining_hashrate_resale_request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/mining/test_mining_statistics_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/mining/test_mining_worker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/mining/test_mining_worker_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/nft/test_nft_deposit_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/nft/test_nft_get_asset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/nft/test_nft_transaction_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/nft/test_nft_withdraw_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/pay/test_pay_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/portfolio_margin/test_portfolio_margin_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/rebate/test_rebate_spot_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/savings/test_savings_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/savings/test_savings_change_position.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/savings/test_savings_flexible_product_position.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/savings/test_savings_flexible_products.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/savings/test_savings_flexible_redeem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/savings/test_savings_flexible_user_left_quota.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/savings/test_savings_flexible_user_redemption_quota.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/savings/test_savings_interest_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/savings/test_savings_project_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/savings/test_savings_project_position.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/savings/test_savings_purchase_flexible_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/savings/test_savings_purchase_project.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/savings/test_savings_purchase_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/savings/test_savings_redemption_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/staking/test_staking_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/staking/test_staking_product_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/staking/test_staking_product_position.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/staking/test_staking_product_quota.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/staking/test_staking_purchase_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/staking/test_staking_redeem_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/staking/test_staking_set_auto_staking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_managed_sub_account_assets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_managed_sub_account_deposit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_managed_sub_account_get_snapshot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_managed_sub_account_withdraw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_api_add_ip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_api_delete_ip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_api_get_ip_restriction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_api_toggle_ip_restriction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_asset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_create.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_deposit_address.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_deposit_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_enable_futures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_enable_leverage_token.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_enable_margin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_futures_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_futures_account_summary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_futures_asset_transfer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_futures_asset_transfer_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_futures_position_risk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_futures_transfer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_margin_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_margin_account_summary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_margin_transfer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_spot_summary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_spot_transfer_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_status.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_transfer_sub_account_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_transfer_to_master.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_transfer_to_sub.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_universal_transfer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/sub_account/test_sub_account_universal_transfer_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/trade/test_account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/trade/test_cancel_oco_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/trade/test_cancel_open_orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/trade/test_cancel_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/trade/test_get_oco_open_orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/trade/test_get_oco_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/trade/test_get_oco_orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/trade/test_get_open_orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/trade/test_get_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/trade/test_get_order_rate_limit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/trade/test_get_orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/trade/test_my_trades.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/trade/test_new_oco_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/trade/test_new_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/trade/test_new_order_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/wallet/test_account_snapshot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/wallet/test_account_status.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/wallet/test_api_key_permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/wallet/test_api_trading_status.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/wallet/test_asset_detail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/wallet/test_asset_dividend_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/wallet/test_bnb_convertible_assets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/wallet/test_coin_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/wallet/test_deposit_address.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/wallet/test_deposit_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/wallet/test_disable_fast_withdraw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/wallet/test_dust_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/wallet/test_enable_fast_withdraw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/wallet/test_funding_wallet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/wallet/test_system_status.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/wallet/test_trade_fee.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/wallet/test_transfer_dust.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/wallet/test_user_universal_transfer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/wallet/test_user_universal_transfer_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/wallet/test_withdraw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/spot/wallet/test_withdraw_history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/test_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tests/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binance-connector-python-master/tox.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excel_dashboard_streamlit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/key.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/object_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/portfolio/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iUtilities.iml" beforeDir="false" afterPath="$PROJECT_DIR$/iUtilities.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="29IJ2wQ0RNmPMugjSLg2qrc47ob" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Python.__init__">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="iUtilities" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/portfolio" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/portfolio/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="decorator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="iUtilities" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/decorator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="object_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="iUtilities" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/object_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="iUtilities" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.__init__" />
+        <item itemvalue="Python.object_test" />
+        <item itemvalue="Python.decorator" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,7 +705,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652794464948</updated>
+      <workItem from="1652794467571" duration="288000" />
+      <workItem from="1652972254704" duration="2060000" />
+      <workItem from="1652997408510" duration="2114000" />
+      <workItem from="1653067775793" duration="1754000" />
+      <workItem from="1653390523035" duration="386000" />
+      <workItem from="1653900249571" duration="3278000" />
+      <workItem from="1654091399498" duration="10388000" />
+      <workItem from="1654182142725" duration="138000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/iUtilities$decorator.coverage" NAME="decorator Coverage Results" MODIFIED="1653068402173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/iUtilities$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1654096921387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/portfolio" />
+    <SUITE FILE_PATH="coverage/iUtilities$test.coverage" NAME="test Coverage Results" MODIFIED="1652999719577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/iUtilities$object_test.coverage" NAME="object_test Coverage Results" MODIFIED="1653068836972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
